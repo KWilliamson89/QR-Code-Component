@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+.Main-Container {
+  width: 265px;
+  height: 430px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+ margin:100px auto;
+box-shadow: 3px 8px 20px 5px rgba(179,140,108,0.75);
+-webkit-box-shadow: 3px 8px 20px 5px rgba(179,140,108,0.75);
+-moz-box-shadow: 3px 8px 20px 5px rgba(179,140,108,0.75);
+}
+
+img {
+  border-radius: 20px;
+  display: block;
+  width: 90%;
+  /* padding: .9rem 8rem; */
+  margin: 5% auto;
+}
+
+.Big-Flippa {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0 7px;
+}
+.lil-flippa {
+  font-weight: 400;
+  text-align: center;
+  font-size: 0.98rem;
+  padding: 15px 10px;
+}
+
+.Big-Flippa,
+.lil-flippa {
+  color: hsl(218, 44%, 22%);
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 90%;
+  }
